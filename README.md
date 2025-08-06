@@ -22,8 +22,18 @@ Use the `cd` command to change to the folder containing your project:
 
 cd path\to\your\project
 
-Step 4: Create a Conda Environment : conda create -n raisin python=3.11
+### Step 4: Create a Conda Environment : 
 
-Step 5: Activate the Environment: conda activate raisin
-Step 6: Install Required Packages: conda install --file requirements.txt
-Step 7: Run the Application: streamlit run main.py
+conda create -n raisin python=3.11
+
+### Step 5: Activate the Environment: 
+
+conda activate raisin
+
+
+### Step 6: Install Required Packages:
+ conda install --file requirements.txt
+
+### Step 7: Run the Application: 
+
+streamlit run main.py
