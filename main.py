@@ -240,7 +240,7 @@ def cleanup_resources(cap=None):
 def main():
     """Main function to run the grape detection system with Streamlit UI."""
     try:
-        st.title("🍇 Raisins Color Sorting System")
+        st.title("Raisins Color Sorting System")
         
         # Initialize session state
         if 'detection_active' not in st.session_state:
@@ -258,7 +258,7 @@ def main():
 
         with st.sidebar:
             st.header("🎛️ Detection Controls")
-            color_option = st.selectbox("Excluded Color", ["RED", "BLACK", "YELLOW"], index=0, key="color_selector")
+            color_option = st.selectbox("Sorting Color", ["RED", "BLACK", "YELLOW"], index=0, key="color_selector")
             
             if color_option != STATE["current_detection_mode"]:
                 update_target_classes(color_option)
