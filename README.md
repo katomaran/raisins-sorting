@@ -32,7 +32,7 @@ conda activate raisin
 
 
 ### Step 6: Install Required Packages:
- conda install -r requirements.txt
+pip install -r requirements.txt
 
 ### Step 7: Run the Application: 
 

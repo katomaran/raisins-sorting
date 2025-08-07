@@ -76,6 +76,7 @@ def update_target_classes(excluded_color):
         "RED": "red",
         "BLACK": "black",
         "YELLOW": "yellow",
+        "STICK":"stick"
     }
     if excluded_color in all_colors:
         active_classes = [
